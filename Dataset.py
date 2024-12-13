@@ -16,5 +16,3 @@ def generator(ticker):
     df['OBV'] = ta.OBV(df['Close'], df['Volume'])
     # print(df)
     return df
-
-# generator('msft')
