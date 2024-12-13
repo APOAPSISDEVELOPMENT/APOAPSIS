@@ -24,4 +24,4 @@ def forecast(ticker):
     else:
         rating = -1
     return plot, rating
-plot, rating = forecast('googl')
+plot, rating = forecast('google')
