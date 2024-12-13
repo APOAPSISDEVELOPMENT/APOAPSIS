@@ -14,4 +14,4 @@ def sectorPerformance(ticker):
             rating = float(x['changesPercentage'][:-1])
             break
         return rating   
-print(sectorPerformance('msft'))
+print(sectorPerformance('58%'))
